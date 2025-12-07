@@ -2,8 +2,8 @@ import streamlit as st
 
 st.title('Test: Why Am I Being Tested?')
 
-st.write('Assalamu alaykum! Ahlan bik! Please check all boxes that apply:
-(NOTE: The descrption of "consistent" varies person to person so please judge accordingly):')
+st.write('Assalamu alaykum! Ahlan bik! Please check all boxes that apply:')
+st.write('NOTE: The descrption of "consistent" varies person to person so please judge accordingly)')
 salah = st.checkbox('My salah has been consistent')
 quran = st.checkbox('My quran has been consistent')
 adhkar = st.checkbox('My adhkar has been consistent')
